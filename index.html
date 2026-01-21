@@ -1,40 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebGIS Kebencanaan Jawa Barat | Portal Informasi Bencana</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-    <!-- Background Animation -->
-    <div class="background-animation">
-        <div class="particles" id="particles-js"></div>
-        <div class="gradient-bg"></div>
-    </div>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <div class="logo">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <span>WebGIS<span class="highlight">Jabar</span></span>
-                </div>
-                <div class="tagline">Portal Kebencanaan Jawa Barat</div>
-            </div>
-            
-            <div class="nav-menu">
-                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Beranda</a>
-                <a href="pages/peta.html" class="nav-link"><i class="fas fa-map"></i> Peta</a>
-                <a href="pages/dashboard.html" class="nav-link"><i class="fas fa-chart-bar"></i> Dashboard</a>
-                <a href="pages/berita.html" class="nav-link"><i class="fas fa-newspaper"></i> Berita</a>
-                <a href="pages/tentang.html" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a>
-            </div>
-            
-           
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portal WebGIS Kebencanaan Jawa Barat - Informasi peta rawan bencana, prakiraan cuaca BMKG, dan berita kebencanaan terkini" />
+    <meta name="keywords" content="WebGIS, Jawa Barat, Bencana, BMKG, BNPB, BPBD, Peta Bencana" />
+    <title>WebGIS Kebencanaan Jawa Barat</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
